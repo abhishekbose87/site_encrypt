@@ -1,4 +1,6 @@
 defmodule SiteEncrypt.Certifier do
+  @moduledoc false
+
   alias SiteEncrypt.{Certbot, Logger}
 
   @spec child_spec(module) :: Supervisor.child_spec()

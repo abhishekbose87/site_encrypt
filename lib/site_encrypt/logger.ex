@@ -1,4 +1,6 @@
 defmodule SiteEncrypt.Logger do
+  @moduledoc false
+
   require Logger
 
   @type log_fun :: (() -> Logger.message() | {Logger.message(), keyword()})

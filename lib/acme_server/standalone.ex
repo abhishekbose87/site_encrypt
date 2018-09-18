@@ -1,4 +1,6 @@
 defmodule AcmeServer.Standalone do
+  @moduledoc false
+
   alias Plug.Adapters.{Cowboy, Cowboy2}
 
   def child_spec(opts) do

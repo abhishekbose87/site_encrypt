@@ -1,4 +1,6 @@
 defmodule AcmeServer do
+  @moduledoc false
+
   alias AcmeServer.Account
 
   @type site :: String.t()

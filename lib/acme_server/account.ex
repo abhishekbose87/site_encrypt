@@ -1,4 +1,6 @@
 defmodule AcmeServer.Account do
+  @moduledoc false
+
   @type t :: %{id: integer()}
   @type order :: %{
           id: integer(),

@@ -1,4 +1,6 @@
 defmodule SiteEncrypt.Certbot do
+  @moduledoc false
+
   @type https_keys :: [keyfile: String.t(), certfile: String.t(), cacertfile: String.t()]
   @type ensure_cert :: {:new_cert, String.t()} | {:no_change, String.t()} | {:error, String.t()}
 

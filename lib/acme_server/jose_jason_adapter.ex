@@ -1,4 +1,6 @@
 defmodule AcmeServer.JoseJasonAdapter do
+  @moduledoc false
+
   @spec encode(term()) :: String.t() | no_return()
   def encode(input), do: Jason.encode!(input)
 

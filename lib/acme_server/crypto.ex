@@ -1,4 +1,6 @@
 defmodule AcmeServer.Crypto do
+  @moduledoc false
+
   alias X509.{CSR, PrivateKey, PublicKey, Certificate}
   alias X509.Certificate.Extension
 
